@@ -4,10 +4,11 @@ function setup() {
   createCanvas(640, 360);
   // Make a Walker object
   w = new Walker();
+  noStroke();
 }
 
 function draw() {
-  background(51);
+  background('#fae');
   // Update and display object
   w.update();
   w.display();
@@ -26,7 +27,7 @@ function Walker() {
 
   this.display = function() {
     // Draw Walker as circle
-    fill(255);
-    ellipse(this.pos.x, this.pos.y, 48, 48);
+    fill('#00FFFF');
+    rect(this.pos.x, this.pos.y, 48, 48);
   }
 }
