@@ -2,3 +2,6 @@ COURSE CONTENT RELATED UPDATES
 
 Jan 13
 Uploaded example shown in EECS1720 class of the 'walker' class. Need to update something about this program for homework
+
+Jan 16
+Updated the original sketch.js files with colour, changed the original shape of the walker object from an ellipse to a rect
